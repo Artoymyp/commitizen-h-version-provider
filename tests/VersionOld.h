@@ -1,0 +1,5 @@
+#pragma once
+
+#define GAME_VERSION_MAJOR 1
+#define GAME_VERSION_MINOR 2
+#define GAME_VERSION_PATCH 3
