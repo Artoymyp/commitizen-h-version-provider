@@ -3,7 +3,7 @@ from commitizen.providers import VersionProvider
 
 
 class HVersionProvider(VersionProvider):
-    file = Path() / ".." / "version.h"
+    file = Path() / "version.h"
 
     def get_version(self) -> str:
         return f'{self.file.read_text()}'
